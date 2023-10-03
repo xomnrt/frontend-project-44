@@ -4,6 +4,9 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/24786b2e3290e43a585f/maintainability)](https://codeclimate.com/github/xomnrt/frontend-project-44/maintainability)
 
+Выбор игры:
+[![asciicast](https://asciinema.org/a/AeIyidHkTUEswLullbKzsLFf5.svg)](https://asciinema.org/a/AeIyidHkTUEswLullbKzsLFf5)
+
 Игра: "Проверка на чётность"
 [![asciicast](https://asciinema.org/a/DjmE9kw6Ft2WzxpCsM3XwBL2d.svg)](https://asciinema.org/a/DjmE9kw6Ft2WzxpCsM3XwBL2d?t=6)
 
