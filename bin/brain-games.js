@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import evenNumbersGame from './brain-even.js';
+import main from '../src/index.js';
 
-evenNumbersGame();
+main(undefined);

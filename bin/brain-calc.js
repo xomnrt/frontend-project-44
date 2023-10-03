@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 import main from '../src/index.js';
 
-main('brain-even');
+main('brain-calc');
