@@ -15,3 +15,6 @@
 
 Игра "Наибольший общий делитель"
 [![asciicast](https://asciinema.org/a/hZQZye4wBsPFC5ssDqFGyo48O.svg)](https://asciinema.org/a/hZQZye4wBsPFC5ssDqFGyo48O)
+
+Игра "Арифметическая прогрессия"
+[![asciicast](https://asciinema.org/a/AN8b0EZkSlFnPqNP7hzYydaz6.svg)](https://asciinema.org/a/AN8b0EZkSlFnPqNP7hzYydaz6)

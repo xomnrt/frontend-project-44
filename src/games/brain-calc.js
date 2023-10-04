@@ -11,6 +11,8 @@ function correctAnswer(number1, number2, operator) {
   }
 }
 
+export const description = 'What is the result of the expression?';
+
 export function generateQuestionAndExpectedAnswer() {
   const randomNumber1 = Math.floor(Math.random() * 100);
   const randomNumber2 = Math.floor(Math.random() * 100);
@@ -27,5 +29,3 @@ export function generateQuestionAndExpectedAnswer() {
     expected,
   };
 }
-
-export const description = 'What is the result of the expression?';
