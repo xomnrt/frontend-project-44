@@ -4,6 +4,7 @@ import * as brainEven from './games/brain-even.js';
 import * as brainCalc from './games/brain-calc.js';
 import * as brainGCD from './games/brain-gcd.js';
 import * as brainProg from './games/brain-progression.js';
+import * as brainPrime from './games/brain-prime.js';
 
 function greeting() {
   console.log('Welcome to the Brain Games!');
@@ -87,6 +88,12 @@ function getGameData(defaultGameName) {
       description: brainProg.description,
       generateQuestionAndExpectedAnswer:
       brainProg.generateQuestionAndExpectedAnswer,
+    },
+    'brain-prime': {
+      order: 5,
+      description: brainPrime.description,
+      generateQuestionAndExpectedAnswer:
+      brainPrime.generateQuestionAndExpectedAnswer,
     },
 
   };
