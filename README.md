@@ -12,3 +12,6 @@
 
 Игра: "Калькулятор"
 [![asciicast](https://asciinema.org/a/611833.svg)](https://asciinema.org/a/611833)
+
+Игра "Наибольший общий делитель"
+[![asciicast](https://asciinema.org/a/hZQZye4wBsPFC5ssDqFGyo48O.svg)](https://asciinema.org/a/hZQZye4wBsPFC5ssDqFGyo48O)

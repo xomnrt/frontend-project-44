@@ -2,6 +2,7 @@ import readlineSync from 'readline-sync';
 
 import * as brainEven from './games/brain-even.js';
 import * as brainCalc from './games/brain-calc.js';
+import * as brainGCD from './games/brain-gcd.js';
 
 function greeting() {
   console.log('Welcome to the Brain Games!');
@@ -74,6 +75,13 @@ function getGameData(defaultGameName) {
       generateQuestionAndExpectedAnswer:
        brainCalc.generateQuestionAndExpectedAnswer,
     },
+    'brain-gcd': {
+      order: 3,
+      description: brainGCD.description,
+      generateQuestionAndExpectedAnswer:
+      brainGCD.generateQuestionAndExpectedAnswer,
+    },
+
   };
 
   let gameName = defaultGameName;
