@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import main from '../src/index.js';
+import greeting from '../src/cli.js';
 
-main(undefined);
+greeting();
