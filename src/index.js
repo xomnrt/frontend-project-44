@@ -6,7 +6,7 @@ import * as brainGCD from './games/brain-gcd.js';
 import * as brainProg from './games/brain-progression.js';
 import * as brainPrime from './games/brain-prime.js';
 
-function greeting() {
+export function greeting() {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
@@ -19,7 +19,7 @@ function answerCheck(userName, answer, expected) {
     return true;
   }
 
-  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${expected}'.
+  console.log(`"${answer}" is wrong answer ;(. Correct answer was "${expected}".
       Let's try again, ${userName}!`);
 
   return false;

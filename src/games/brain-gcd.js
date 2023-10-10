@@ -1,4 +1,4 @@
-export const description = 'Find the greatest common divider of given numbers.';
+export const description = 'Find the greatest common divisor of given numbers.';
 
 function gcd(number1, number2) {
   if (number2 === 0) {

@@ -1,13 +1,8 @@
 function isPrime(number) {
-  if (number > 0) {
-    for (let i = 2; i < number; i += 1) {
-      if (number % i === 0) {
-        return false;
-      }
-    }
-    return true;
+  for (let i = 2, square = Math.sqrt(number); i <= square; i += 1) {
+    if (number % i === 0) return false;
   }
-  return false;
+  return number > 1;
 }
 
 function correctAnswer(number) {
