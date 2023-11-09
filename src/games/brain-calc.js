@@ -1,3 +1,5 @@
+import getRandomInRange from '../getRandomInRange.js';
+
 function correctAnswer(number1, number2, operator) {
   switch (operator) {
     case '+':
@@ -14,11 +16,11 @@ function correctAnswer(number1, number2, operator) {
 export const description = 'What is the result of the expression?';
 
 export function generateQuestionAndExpectedAnswer() {
-  const randomNumber1 = Math.floor(Math.random() * 100);
-  const randomNumber2 = Math.floor(Math.random() * 100);
+  const randomNumber1 = getRandomInRange(0, 100);
+  const randomNumber2 = getRandomInRange(0, 100);
 
   const operators = ['+', '-', '*'];
-  const operator = operators[Math.floor(Math.random() * operators.length)];
+  const operator = operators[getRandomInRange(0, operators.length - 1)];
 
   const question = `${randomNumber1} ${operator} ${randomNumber2}`;
 

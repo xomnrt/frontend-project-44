@@ -4,23 +4,24 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/24786b2e3290e43a585f/maintainability)](https://codeclimate.com/github/xomnrt/frontend-project-44/maintainability)
 
-# «Игры разума»
+# «Brain Games»
 
-**«Игры разума»** — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+**"Brain Games"** is a set of five console games, based on the popular apps to boost your brainpower. You have to correctly answer 3 questions to complete each game. An incorrect answer leads to the end and you have to start over.
 
-### Установка
+### Setup
 
-```
+```bash
+git clone 'git@github.com:xomnrt/frontend-project-44.git'
 make install
 make publish
 npm link
 ```
 
-# Выбор игры
+# Game menu
 
-Игроку доступен выбор игры из списка или же запуск определенной игры:
+Get the greeting!
 
-## Запуск программы
+## Launch
 
 ```
 $ brain-games
@@ -28,9 +29,11 @@ $ brain-games
 
 [![asciicast](https://asciinema.org/a/BHCcTKXUmprfEKgw3yjLEI2z0.svg)](https://asciinema.org/a/BHCcTKXUmprfEKgw3yjLEI2z0)
 
-# **Проверка на четность числа**
+# **Brain Even**
 
-## Запуск
+You have to tell if the number is even
+
+## Launch
 
 ```
 $ brain-even
@@ -38,11 +41,11 @@ $ brain-even
 
 [![asciicast](https://asciinema.org/a/DjmE9kw6Ft2WzxpCsM3XwBL2d.svg)](https://asciinema.org/a/DjmE9kw6Ft2WzxpCsM3XwBL2d?t=6)
 
-# **Калькулятор**
+# **Calculator**
 
-Арифметические выражения, которые необходимо вычислить.
+You have to calculate the value of the given expression
 
-### Запуск
+### Launch
 
 ```
 $ brain-calc
@@ -50,7 +53,11 @@ $ brain-calc
 
 [![asciicast](https://asciinema.org/a/611833.svg)](https://asciinema.org/a/611833)
 
-# **Наибольший общий делитель**
+# **Greatest common divisor**
+
+You have to find the greatest common divisor among the given numbers
+
+### Launch
 
 ```
 $ brain-gcd
@@ -58,11 +65,11 @@ $ brain-gcd
 
 [![asciicast](https://asciinema.org/a/hZQZye4wBsPFC5ssDqFGyo48O.svg)](https://asciinema.org/a/hZQZye4wBsPFC5ssDqFGyo48O)
 
-# **Арифметическая прогрессия**
+# **Arithmetic progression**
 
-Поиск пропущенных чисел в последовательности чисел.
+You have to find the missing element in the sequence
 
-### Запуск
+### Launch
 
 ```
 $ brain-progression
@@ -70,7 +77,11 @@ $ brain-progression
 
 [![asciicast](https://asciinema.org/a/AN8b0EZkSlFnPqNP7hzYydaz6.svg)](https://asciinema.org/a/AN8b0EZkSlFnPqNP7hzYydaz6)
 
-# **Простое ли число?**
+# **Prime number**
+
+You have to tell if the number is prime
+
+### Launch
 
 ```
 $ brain-prime
